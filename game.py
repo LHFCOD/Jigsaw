@@ -112,9 +112,13 @@ import pandas as pd
 from tensorflow import contrib
 def NextBatch(sess,memory,size=30):
     randomChoice=memory.sample(frac=0.1)
-    real_q=sess.run(y2,feed_dict={input:np.array(list(randomChoice['state2']))})
+    real_q=sess.run(y3,feed_dict={input:np.array(list(randomChoice['state2']))})
     maxq=np.max(real_q,axis=1)
-    return randomChoice['state1'],randomChoice['action'],randomChoice['reward']+factor*maxq
+    return np.array(list(randomChoice['state1'])),np.array(list(randomChoice['action'])),np.array(list(randomChoice['reward']+factor*maxq))
+def ActionToVector(action):
+    vector=np.zeros([Game.Actions])
+    vector[action]=1
+    return vector
 if __name__=="__main__":
     width=6
     height=6
@@ -124,20 +128,15 @@ if __name__=="__main__":
     episode=100
     curEpisode=0
     factor=0.8
+    prob=0.1
     ##
     memory=pd.DataFrame(columns=['state1','action','reward','state2'])
     for i in range(memLen):
         step={}
         step['state1']=game.GetState()
         action=random.randint(0,Game.Actions-1)
-        if action==0:
-            step['action']=[1,0,0,0]
-        elif action==1:
-            step['action']=[0,1,0,0]
-        elif action==2:
-            step['action']=[0,0,1,0]
-        else:
-            step['action']=[0,0,0,1]
+        game.Play(action)
+        step['action']=ActionToVector(action)
         if game.isSuccess():
             reward=1
             step['reward']=reward
@@ -164,11 +163,11 @@ if __name__=="__main__":
 
     action = tf.placeholder('float', [None,Game.Actions])
     qValue=tf.placeholder('float',[None,])
-    coss=tf.reduce_mean(tf.reduce_sum(tf.multiply(y3,action),axis=1)-qValue,axis=0)
-    #for i in range(0,)
-    #split = tf.slice(y3,[0,action],[-1,1])
-    #coss = tf.reduce_mean(tf.reduce_sum(tf.square(split-output), 1))
-    train = tf.train.AdamOptimizer(1e-4).minimize(coss)
+    p1=tf.multiply(y3,action)
+    p2=tf.reduce_sum(p1,axis=1)
+    p3=tf.pow(p2-qValue,2)
+    coss=tf.reduce_mean(p3,axis=0)
+    train = tf.train.AdamOptimizer(1e-2).minimize(coss)
     init = tf.global_variables_initializer()
     g1 = tf.get_default_graph()
     sess = tf.Session(graph=g1)
@@ -177,25 +176,42 @@ if __name__=="__main__":
     merged=tf.summary.merge_all()
     train_writer = tf.summary.FileWriter('TensorBoard', sess.graph)
 
+    success_count=0
     sess.run(init)
-    for i in range(10000):
-        bx,_action, by = NextBatch(sess,memory)
-        summary,_=sess.run([merged,train],feed_dict={input:bx,output:by,action:[0,0,0,1]})
-        train_writer.add_summary(summary,i)
+    for i in range(100000):
+        #summary,_=sess.run([merged,train],feed_dict={input:bx,output:by,action:[0,0,0,1]})
+        #train_writer.add_summary(summary,i)
+        ##游戏走步
+        step = {}
+        step['state1'] = game.GetState()
+        nextQ=sess.run(y3,feed_dict={input:np.array(game.GetState()).reshape(1,-1)})
+        nextAction=nextQ.argmax(axis=1)[0]
+        realAction=nextAction
+        #探索
+        if random.random()<prob:
+            randAction=random.randint(0,Game.Actions-2)
+            if randAction >=nextAction:
+                randAction=randAction+1
+            realAction=randAction
+        step['action']=ActionToVector(realAction)
+        game.Play(realAction)
+        if game.isSuccess():
+            reward=1
+            step['reward']=reward
+            step['state2']=None
+            curEpisode=curEpisode+1
+            game.InitGame()
+            success_count=success_count+1
+        else:
+            reward=0
+            step['reward']=reward
+            step['state2']=game.GetState()
+        memory.reset_index(drop=True,inplace=True)
+        memory.drop([0],inplace=True)
+        memory.loc[memory.shape[0] + 1] = step
+        #梯度下降
         if i % 50:
-            print(sess.run(coss,feed_dict={input:bx,output:by,action:1}))
+            _state, _action, _q = NextBatch(sess, memory)
+            print(sess.run(coss,feed_dict={input:_state,qValue:_q,action:_action}))
     train_writer.close()
-    g2=tf.Graph()
-
-    plotX=np.arange(-1,1,0.01)
-    plotX=plotX.reshape(-1,1)
-    plotY=np.power(plotX,2)
-    _plotY=sess.run(split,feed_dict={input:plotX,output:plotY,action:1})
-    fig1=plt.figure('fig1')
-    plt.plot(plotX,plotY)
-    plt.plot(plotX,_plotY)
-    fig2=plt.figure('fig2')
-    plotY = np.power(plotX, 2)
-    _plotY2 = sess2.run(split, feed_dict={input: plotX, output: plotY, action: 1})
-    plt.plot(plotX, plotY)
-    plt.plot(plotX, _plotY2)
+    print('success_count:%s'%(success_count))
