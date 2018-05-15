@@ -12,7 +12,7 @@ class Game:
     def __init__(self,_width,_height):
         self.width=_width
         self.height=_height
-        self.count=(self.width+1)*(self.height+1)
+        self.count=(self.width)*(self.height)
         self.SqureContainer={}
         self.spacePos=0
         for i in range(self.height):
@@ -108,11 +108,13 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import copy
+import pandas as pd
 from tensorflow import contrib
-def NextBatch(size=30):
-    x=np.random.uniform(-1,1,[size,1])
-    y=np.power(x,2)
-    return x,y
+def NextBatch(sess,memory,size=30):
+    randomChoice=memory.sample(frac=0.1)
+    real_q=sess.run(y2,feed_dict={input:np.array(list(randomChoice['state2']))})
+    maxq=np.max(real_q,axis=1)
+    return randomChoice['state1'],randomChoice['action'],randomChoice['reward']+factor*maxq
 if __name__=="__main__":
     width=6
     height=6
@@ -121,25 +123,33 @@ if __name__=="__main__":
     memLen=100
     episode=100
     curEpisode=0
+    factor=0.8
     ##
-    memory=[]
+    memory=pd.DataFrame(columns=['state1','action','reward','state2'])
     for i in range(memLen):
-        step=[]
-        step.append(game.GetState())
+        step={}
+        step['state1']=game.GetState()
         action=random.randint(0,Game.Actions-1)
-        step.append(action)
+        if action==0:
+            step['action']=[1,0,0,0]
+        elif action==1:
+            step['action']=[0,1,0,0]
+        elif action==2:
+            step['action']=[0,0,1,0]
+        else:
+            step['action']=[0,0,0,1]
         if game.isSuccess():
             reward=1
-            step.append(reward)
-            step.append(None)
+            step['reward']=reward
+            step['state2']=None
             curEpisode=curEpisode+1
             game.InitGame()
         else:
             reward=0
-            step.append(reward)
-            step.append(game.GetState())
-        memory.append(step)
-    inDim=1
+            step['reward']=reward
+            step['state2']=game.GetState()
+        memory.loc[memory.shape[0]+1]=step
+    inDim=game.count
     input = tf.placeholder('float',[None, inDim])
     w1 = tf.Variable(tf.random_uniform([inDim, 10], -1, 1))
     b1 = tf.Variable(tf.random_uniform([10], -1, 1))
@@ -151,11 +161,13 @@ if __name__=="__main__":
     b3 = tf.Variable(tf.random_uniform([Game.Actions], -1, 1))
     y3 = tf.nn.relu(tf.matmul(y2, w3) + b3)
 
-    output = tf.placeholder('float',[None, 1])
-    action = tf.placeholder('int32', [None,1])
-    for i in range(0,)
-    split = tf.slice(y3,[0,action],[-1,1])
-    coss = tf.reduce_mean(tf.reduce_sum(tf.square(split-output), 1))
+
+    action = tf.placeholder('float', [None,Game.Actions])
+    qValue=tf.placeholder('float',[None,])
+    coss=tf.reduce_mean(tf.reduce_sum(tf.multiply(y3,action),axis=1)-qValue,axis=0)
+    #for i in range(0,)
+    #split = tf.slice(y3,[0,action],[-1,1])
+    #coss = tf.reduce_mean(tf.reduce_sum(tf.square(split-output), 1))
     train = tf.train.AdamOptimizer(1e-4).minimize(coss)
     init = tf.global_variables_initializer()
     g1 = tf.get_default_graph()
@@ -167,13 +179,13 @@ if __name__=="__main__":
 
     sess.run(init)
     for i in range(10000):
-        bx, by = NextBatch()
-        summary,_=sess.run([merged,train],feed_dict={input:bx,output:by,action:1})
+        bx,_action, by = NextBatch(sess,memory)
+        summary,_=sess.run([merged,train],feed_dict={input:bx,output:by,action:[0,0,0,1]})
         train_writer.add_summary(summary,i)
         if i % 50:
             print(sess.run(coss,feed_dict={input:bx,output:by,action:1}))
     train_writer.close()
-   g2=tf.Graph()
+    g2=tf.Graph()
 
     plotX=np.arange(-1,1,0.01)
     plotX=plotX.reshape(-1,1)
