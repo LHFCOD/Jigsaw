@@ -2,39 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436b332f-7891-406c-9769-b7187c564b0f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353009.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353033.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353095.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353148.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353199.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353334.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362174.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362375.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362402.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362440.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362658.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362710.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362767.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362786.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362882.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363006.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363095.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363127.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363152.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363173.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363242.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363277.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363339.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363401.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363443.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363500.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363566.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363590.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363794.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526364108.mi-OptiPlex-7050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526364345.mi-OptiPlex-7050" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526288596.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526288619.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526288646.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350328.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350358.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350547.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350653.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350754.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350789.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350920.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526350994.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351091.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351121.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351165.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351198.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351237.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351291.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351367.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351431.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351587.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526351666.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353009.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353033.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353095.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353148.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353199.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526353334.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362174.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362375.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362402.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362440.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362658.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362710.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362767.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362786.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526362882.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363006.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363095.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363127.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363152.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363173.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363242.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363277.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363339.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363401.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363443.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363500.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363566.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363590.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526363794.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526364108.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526364345.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526364765.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365484.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365530.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365649.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365714.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365824.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526365852.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526367532.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526367625.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526367726.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526367796.mi-OptiPlex-7050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorBoard/events.out.tfevents.1526367999.mi-OptiPlex-7050" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +77,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
+            <state relative-caret-position="940">
+              <caret line="247" column="17" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,7 +90,7 @@
       <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/client/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="543">
               <caret line="1339" selection-start-line="1339" selection-end-line="1339" />
             </state>
           </provider>
@@ -67,7 +99,7 @@
       <file leaf-file-name="numeric.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/numpy/core/numeric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="543">
               <caret line="530" selection-start-line="530" selection-end-line="530" />
             </state>
           </provider>
@@ -77,21 +109,16 @@
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="op_def_library.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="775" selection-start-line="775" selection-end-line="775" />
+            <state relative-caret-position="185">
+              <caret line="751" column="34" selection-start-line="751" selection-start-column="34" selection-end-line="751" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -107,6 +134,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/game.py" />
       </list>
     </option>
@@ -130,6 +158,11 @@
               <item name="Jigsaw" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jigsaw" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Jigsaw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jigsaw" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,7 +170,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,25 +225,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22082879" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299285" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938712" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29811716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39853558" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -217,6 +250,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/game.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -224,31 +264,91 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/common_shapes.py">
+    <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="660" column="4" selection-start-line="660" selection-start-column="4" selection-end-line="660" selection-end-column="4" />
+        <state relative-caret-position="5256">
+          <caret line="219" column="54" selection-start-line="219" selection-start-column="54" selection-end-line="219" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31680">
+          <caret line="1339" selection-start-line="1339" selection-end-line="1339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12264">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="775" selection-start-line="775" selection-end-line="775" />
+        <state relative-caret-position="17640">
+          <caret line="751" column="34" lean-forward="true" selection-start-line="751" selection-start-column="34" selection-end-line="751" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5256">
+          <caret line="219" column="54" selection-start-line="219" selection-start-column="54" selection-end-line="219" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32136">
+          <caret line="1339" selection-start-line="1339" selection-end-line="1339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12264">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18216">
+          <caret line="775" selection-start-line="775" selection-end-line="775" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/common_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="660" column="4" selection-start-line="660" selection-start-column="4" selection-end-line="660" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -259,24 +359,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="530" selection-start-line="530" selection-end-line="530" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/client/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="543">
           <caret line="1339" selection-start-line="1339" selection-end-line="1339" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="751" column="34" selection-start-line="751" selection-start-column="34" selection-end-line="751" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/my_pymc_env/lib/python3.5/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-358082" />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
+        <state relative-caret-position="940">
+          <caret line="247" column="17" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
         </state>
       </provider>
     </entry>
